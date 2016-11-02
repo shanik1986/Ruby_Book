@@ -1,10 +1,13 @@
-# Variables: Ex. 1 + 3 - Usert types in name and the prog prints a welcome message with the name. Then, it prints your name 10 times
+# Variables: Ex.  - Usert types in their first and last name and the prog prints their full name
 
-puts "Hey there, what's your name?"
-name = gets.chomp
+puts "Hey there, what's your first name?"
+f_name = gets.chomp
 
-puts "Welcome to this stupid program #{name}"
+puts "And your last name?"
+l_name = gets.chomp
 
-10.times do |n|
-  puts name
-end
+puts "Welcome to this stupid program #{f_name} #{l_name}"
+
+#10.times do |n|
+#  puts name
+#end
